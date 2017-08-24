@@ -17,3 +17,5 @@ let arr = [1, 2, 3]
 let applyQty = addToItems.apply(items, arr) // you can pass in an array of arguments when using apply
 console.log("Items Qty:" + currentQty, "Items Total:" + currentTotal)
 console.log("applyQty:" + applyQty)
+
+//call() accepts an argument list, while apply() accepts a single array of arguments
