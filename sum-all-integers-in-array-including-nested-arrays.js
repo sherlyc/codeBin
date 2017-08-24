@@ -1,7 +1,7 @@
-    // arr will be an array, containing integers, strings and/or arrays like itself.
-    // Sum all the integers you find, anywhere in the nest of arrays.
+// arr will be an array, containing integers, strings and/or arrays like itself.
+// Sum all the integers you find, anywhere in the nest of arrays.
     
-    let arr = [0, 1, [3, 2], 3]
+let arr = [0, 1, [3, 2], 3]
 
 const arraySum = (arr) => {
   let sum = 0
