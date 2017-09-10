@@ -8,7 +8,6 @@ const longestString = (arr) => {
       returnString = item;
     }
   })
-
   return returnString;
 }
 let arr = ['hello', 'children', 'how can I tell you', 'wakapupu wakamai']
