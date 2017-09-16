@@ -1,2 +1,2 @@
-# jsBin
-my js code snippets
+# codeBin
+my code snippets
