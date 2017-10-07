@@ -1,0 +1,41 @@
+
+<p>Hello, my name is <b>Yunxi</b>.</p>
+<p>I <span class="red">love</span> <span class="purple">mummy</span> and <span class="green">daddy.</span></p>
+<p>i like reading chapter books.</p>
+<p>i like   playing games on ipad.                    </p>
+
+
+<img src="https://sc01.alicdn.com/kf/HT1zGxmFOheXXagOFbXf/2423702/HT1zGxmFOheXXagOFbXf.jpg" class="book-picture">
+<img class="picture" src="https://i.ytimg.com/vi/2jigMN9dMdo/maxresdefault.jpg">
+
+//css
+
+body {
+  background-color:#e6e600;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2em;
+  
+}
+
+.red {
+  color: red;
+}
+
+.book-picture {
+  width: 300px;
+  margin-left: 300px;
+}
+
+.picture {
+ width:300px;
+ border-radius: 50%;  
+
+}
+
+.purple {
+  color: purple;
+}
+
+.green{
+  color:green
+}
