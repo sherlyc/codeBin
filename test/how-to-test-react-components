@@ -1,0 +1,13 @@
+Components Contracts
+A contract defines the expected behavior of your component and what assumptions are reasonable to have about its usage. 
+
+To find your component’s contract, ask yourself questions like:
+What does my component render?
+Does my component render different things under different circumstances?
+When I pass a function as a prop, what does my component use it for?Does it call it, or just give it to another component? If it calls it, what does it call it with?
+When the user interacts with my component, what happens?
+
+What is worth testing?
+Will the test have to duplicate exactly the application code? This will make it brittle.
+Will making assertions in the test duplicate any behavior that is already covered by (and the responsibility of) library code?
+From an outsider’s perspective, is this detail important, or is it only an internal concern? Can the effect of this internal detail be described using only the component’s public API?
