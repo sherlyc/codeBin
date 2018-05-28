@@ -18,8 +18,8 @@ Preloading fonts
 It allows browser to fetch resources in the background and store them in the browser cache, assuming the user will request them later.
 
 HTML:
-
-```<link rel="prefetch" href="/uploads/images/pic.png">
+```
+<link rel="prefetch" href="/uploads/images/pic.png">
 ```
 
 HTTP Header:
