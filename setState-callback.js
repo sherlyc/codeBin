@@ -5,7 +5,7 @@ handleMonthChange_next = () => {
     this.props.getCalendarData(this.state.currentMonth)
 }
 
-## the above code doesn't work because setState is asynchronous. getCalendarData function triggered before the currentMonth changed.
+// the above code doesn't work because setState is asynchronous. getCalendarData function triggered before the currentMonth changed.
 
 handleMonthChange_next = () => {
     this.setState({
@@ -15,4 +15,4 @@ handleMonthChange_next = () => {
     })
 }
 
-## Put getCalendarData in a callback, problem solved. Setstate has an optional second parameter which is a callback function!
+// Put getCalendarData in a callback, problem solved. Setstate has an optional second parameter which is a callback function!
