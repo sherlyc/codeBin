@@ -51,16 +51,16 @@ const clients = [{
 emailActiveClients(clients)
 
 // output :
-checking client sherly 1
-checking client john 0
-checking client lewis 1
-checking client anna 1
-checking client done 1
-emailing: sherly
-emailing: lewis
-emailing: anna
-emailing: done
-emailing Admin to make phone call to: sherly
-emailing Admin to make phone call to: lewis
-emailing Admin to make phone call to: anna
-emailing Admin to make phone call to: done
+// checking client sherly 1
+// checking client john 0
+// checking client lewis 1
+// checking client anna 1
+// checking client done 1
+// emailing: sherly
+// emailing: lewis
+// emailing: anna
+// emailing: done
+// emailing Admin to make phone call to: sherly
+// emailing Admin to make phone call to: lewis
+// emailing Admin to make phone call to: anna
+// emailing Admin to make phone call to: done
