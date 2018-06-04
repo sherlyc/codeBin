@@ -3,7 +3,7 @@
 ## Bad:
 
 ```
-constcons  menuConfig = {
+const menuConfig = {
   title: null,
   body: 'Bar',
   buttonText: null,
