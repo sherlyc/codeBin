@@ -1,4 +1,3 @@
-1)
 
 const dates = {
   a: { start: 5, end: 6},
@@ -10,9 +9,6 @@ const { a : { start : startA, end : endA },
 
 console.log(startA, endA); // 5, 6
 console.log(startB, endB); // 7, 8
-
-
-2)
 
 const LOCAL_FORECAST = {
   today: { min: 72, max: 83 },
