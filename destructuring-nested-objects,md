@@ -1,0 +1,11 @@
+
+const dates = {
+  a: { start: 5, end: 6},
+  b: { start: 7, end: 8}
+};
+
+const { a : { start : startA, end : endA },
+        b : { start: startB, end : endB }} = dates;
+
+console.log(startA, endA); // 5, 6
+console.log(startB, endB); // 7, 8
